@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h1 align="center">List Of My favorite Hobbies</h1>
+
+<div class="row">
+  <div class="column"><p>Playing chess</p>
+    <img src="chess.jpg" alt="" style="width:100%" border="2px">
+  </div>
+  <div class="column"><p>Surfing net</p>
+    <img src="6.jpg" alt="blog" style="width:100%"border="2px">
+  </div>
+  <div class="column"><p>Reading Books</p>
+    <img src="book.jpg" alt="books" style="width:100%" border="2px">
+  </div>
+  <div class="column"><p>Listening Music</p>
+    <img src="music.jpg" alt="music" style="width:100%" border="2px">
+  </div>
+  <div class="column"><p>Watching movies</p>
+    <img src="movies.jpg" alt="movies" style="width:100%" border="2px">
+  </div>
+</div>
+</body>
+</html>
